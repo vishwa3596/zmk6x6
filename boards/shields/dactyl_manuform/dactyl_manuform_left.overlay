@@ -1,0 +1,12 @@
+#include "dactyl_manuform.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&gpio0 7 GPIO_ACTIVE_HIGH>   // D7
+        , <&gpio0 9 GPIO_ACTIVE_HIGH>   // D9
+        , <&gpio0 10 GPIO_ACTIVE_HIGH>  // D10
+        , <&gpio0 11 GPIO_ACTIVE_HIGH>  // D11
+        , <&gpio0 12 GPIO_ACTIVE_HIGH>  // D12
+        , <&gpio0 13 GPIO_ACTIVE_HIGH>  // D13
+        ;
+};
