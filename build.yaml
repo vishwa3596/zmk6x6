@@ -1,5 +1,5 @@
 include:
-  - board: itsybitsy_nrf52840
+  - board: adafruit_itsybitsy_nrf52840
     shield: dactyl_manuform_left
-  - board: itsybitsy_nrf52840
+  - board: adafruit_itsybitsy_nrf52840
     shield: dactyl_manuform_right
